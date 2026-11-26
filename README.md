@@ -2,6 +2,14 @@
 
 SAT inglizcha so'zlarini o'rganish uchun bitta sahifali web-ilova. Interfeys va ta'riflar o'zbekcha, so'zlarning o'zi inglizcha.
 
+## Fayllar
+- `index.html` — sahifa tuzilmasi
+- `style.css` — dizayn, ranglar, animatsiyalar
+- `script.js` — so'zlar ro'yxati va butun mantiq
+- `vercel.json` — Vercel sozlamasi
+
+Build yoki o'rnatish kerak emas: fayllarni brauzerda ochish yoki Vercel'ga yuklash kifoya.
+
 ## Bo'limlar
 - **Bosh sahifa** — 10 ta oraliq (1–6, 7–12 … 55–60), har birida 6 ta so'z. Oraliqni tanlang, so'zlarni ko'ring va o'rganishni boshlang.
 - **Mashq** — uch rejim:
@@ -18,7 +26,7 @@ SAT inglizcha so'zlarini o'rganish uchun bitta sahifali web-ilova. Interfeys va 
 - Animatsiyani o'chirgan foydalanuvchilarda animatsiya ishlamaydi.
 
 ## So'z qo'shish
-Fayl boshidagi `PACKS` ro'yxatida har bir paket 6 ta so'zdan iborat. Yangi so'z:
+`script.js` boshidagi `PACKS` ro'yxatida har bir paket 6 ta so'zdan iborat. Yangi so'z:
 
 ```js
 ["word", "turi", "o'zbekcha ta'rif", "English sentence with ___", "Gapning o'zbekcha tarjimasi"]
